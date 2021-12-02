@@ -1,0 +1,225 @@
+/* @-webkit-keyframes  moveLeft{
+    to {top: 200px;}
+} */
+
+.moveLeftOnceClass {
+    animation-name: moveLeftOnce;
+    animation-duration: 0.1s;
+    /* animation-duration: var(--animation-duration); dosen't work*/
+    position: relative;
+    animation-fill-mode: forwards;
+    /*makes the animation stay at end position intil a new render by setState*/
+}
+
+@keyframes moveLeftOnce {
+    0% {
+        right: 0px;
+        top: 0px;
+    }
+    100% {
+        right: 102px;
+        top: 0px;
+    }
+}
+
+.moveLeftTwiceClass {
+    animation-name: moveLeftTwice;
+    animation-duration: 0.1s;
+    /* animation-duration: var(--animation-duration); dosen't work*/
+    position: relative;
+    animation-fill-mode: forwards;
+    /*makes the animation stay at end position intil a new render by setState*/
+}
+
+@keyframes moveLeftTwice {
+    0% {
+        right: 0px;
+        top: 0px;
+    }
+    100% {
+        right: 204px;
+        top: 0px;
+    }
+}
+
+.moveLeftThreeTimesClass {
+    animation-name: moveLeftThreeTimes;
+    animation-duration: 0.1s;
+    /* animation-duration: var(--animation-duration); dosen't work*/
+    position: relative;
+    animation-fill-mode: forwards;
+    /*makes the animation stay at end position intil a new render by setState*/
+}
+
+@keyframes moveLeftThreeTimes {
+    0% {
+        right: 0px;
+        top: 0px;
+    }
+    100% {
+        right: 305px;
+        top: 0px;
+    }
+}
+
+.moveRightOnceClass {
+    animation-name: moveRightOnce;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveRightOnce {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 102px;
+        top: 0px;
+    }
+}
+
+.moveRightTwiceClass {
+    animation-name: moveRightTwice;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveRightTwice {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 204px;
+        top: 0px;
+    }
+}
+
+.moveRightThreeTimesClass {
+    animation-name: moveRightThreeTimes;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveRightThreeTimes {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 305px;
+        top: 0px;
+    }
+}
+
+.moveUpOnceClass {
+    animation-name: moveUpOnce;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveUpOnce {
+    0% {
+        left: 0px;
+        bottom: 0px;
+    }
+    100% {
+        left: 0px;
+        bottom: 84.5px;
+    }
+}
+
+.moveUpTwiceClass {
+    animation-name: moveUpTwice;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveUpTwice {
+    0% {
+        left: 0px;
+        bottom: 0px;
+    }
+    100% {
+        left: 0px;
+        bottom: 169px;
+    }
+}
+
+.moveUpThreeTimesClass {
+    animation-name: moveUpThreeTimes;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveUpThreeTimes {
+    0% {
+        left: 0px;
+        bottom: 0px;
+    }
+    100% {
+        left: 0px;
+        bottom: 253.5px;
+    }
+}
+
+.moveDownOnceClass {
+    animation-name: moveDownOnce;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveDownOnce {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 84.5px;
+    }
+}
+
+.moveDownTwiceClass {
+    animation-name: moveDownTwice;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveDownTwice {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 169px;
+    }
+}
+
+.moveDownThreeTimesClass {
+    animation-name: moveDownThreeTimes;
+    animation-duration: 0.1s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveDownThreeTimes {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 253.5px;
+    }
+}
